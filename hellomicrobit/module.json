@@ -1,0 +1,12 @@
+{
+  "name": "hellomicrobit",
+  "version": "0.0.0",
+  "bin": "./source",
+  "private": true,
+  "description": "Hello micro:bit :)",
+  "author": "Viny Meuh <vinymeuh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "microbit": "^2.0.0-rc4"
+  }
+}
