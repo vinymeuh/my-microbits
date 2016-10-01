@@ -1,0 +1,12 @@
+{
+  "name": "bitoflife",
+  "version": "0.0.0",
+  "bin": "./source",
+  "private": true,
+  "description": "Game of life on micro:bit",
+  "author": "Viny Meuh <vinymeuh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "microbit": "lancaster-university/microbit"
+  }
+}
