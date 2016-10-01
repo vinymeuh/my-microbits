@@ -37,7 +37,7 @@ mbed-gcc 0.1.3
 
 ## Add dependencies
 
-At a minimum for the micro:bit, add module [microbit](https://github.com/lancaster-university/microbit)
+At a minimum for the micro:bit, add module [lancaster-university/microbit](https://github.com/lancaster-university/microbit)
 
 ```
 > yt install lancaster-university/microbit 
@@ -68,6 +68,26 @@ hellomicrobit 0.0.0
     ┣━ ble 2.5.0 yotta_modules/ble
     ┣━ ble-nrf51822 2.5.0 yotta_modules/ble-nrf51822
     ┗━ nrf51-sdk 2.2.0 yotta_modules/nrf51-sdk
+```
+
+Checks in file **module.json** that the module is not referenced with version. 
+
+For example
+
+```
+...
+  "dependencies": {
+    "microbit": "^2.0.0-rc4"
+  }
+```
+
+must be fixed
+
+```
+...
+  "dependencies": {
+    "microbit": "lancaster-university/microbit"
+  }
 ```
 
 ## Code
